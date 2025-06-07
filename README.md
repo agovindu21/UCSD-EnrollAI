@@ -1,13 +1,17 @@
 # UCSD Course Availability Predictor
 
-A tool to predict course availability at UC San Diego, helping students plan their schedules more effectively.
+A tool to predict the number of available seats at a specific time during the UCSD enrollment predictor, helping students plan their schedules more effectively.
 
 ## Features
 
-- Predicts course seat availability for upcoming quarters
+- Predicts course seat availability for upcoming quarters (see Sample Usage for more specifics)
 - Analyzes historical enrollment data
-- Provides visualizations and trends
-- User-friendly interface
+- User-friendly command-line interface
+
+## Analysis.py
+
+- Provides all the code to mine & explore the data, train the model, and evaluate the model's performance
+- Includes various visualizations along this process
 
 ## Getting Started
 
