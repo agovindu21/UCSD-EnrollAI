@@ -59,7 +59,7 @@ Once you have installed the dependencies and started the application, follow the
 5. **Enter the course capacity (optional)**  
     - Leave blank to use the historical average.
 
-The predictor will then analyze the inputs and provide an availability prediction.
+The predictor will then analyze the inputs and provide a prediction on how many seats will be available when your enrollment pass opens.
 
 ## Contributing
 
