@@ -1,20 +1,65 @@
-This is your group repo for your final project for COGS108.
+# UCSD Course Availability Predictor
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+A tool to predict course availability at UC San Diego, helping students plan their schedules more effectively.
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+## Features
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
+- Predicts course seat availability for upcoming quarters
+- Analyzes historical enrollment data
+- Provides visualizations and trends
+- User-friendly interface
 
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
+## Getting Started
 
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/UCSD_Course_Availability_Predictor.git
+    cd UCSD_Course_Availability_Predictor
+    ```
 
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
+2. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
+3. **Run the application:**
+    ```bash
+    python src/main.py
+    ```
 
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+## Sample Usage
+
+Once you have installed the dependencies and started the application, follow the prompts in the command line:
+
+1. **Enter the course code**  
+    Example: `COGS 108`
+
+2. **Enter your pass number**  
+    Options: `1` or `2`
+
+3. **Enter your enrollment priority**  
+    - `1` — Senior / Priority Enrollment  
+    - `2` — Junior  
+    - `3` — Sophomore  
+    - `4` — Freshman  
+    - `5` — Incoming Freshman
+
+4. **Enter the quarter**  
+    - `FA` — Fall  
+    - `WI` — Winter  
+    - `SP` — Spring  
+    - `S1`, `S2` — Summer Sessions 1 and 2  
+    - `S3` — Special Summer Session
+
+5. **Enter the course capacity (optional)**  
+    - Leave blank to use the historical average.
+
+The predictor will then analyze the inputs and provide an availability prediction.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+## Disclaimer
+
+This tool is not affiliated with UC San Diego. Predictions are based on historical data and are not guaranteed.
