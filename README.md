@@ -8,7 +8,7 @@ A tool to predict the number of available seats at a specific time during the UC
 - Analyzes historical enrollment data
 - User-friendly command-line interface
 
-## Report.py
+## Report.ipynb
 
 - Provides the theoretical justification for this project
 - All the code to mine & explore the data, train the model, and evaluate the model's performance
